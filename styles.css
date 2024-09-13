@@ -1,0 +1,38 @@
+/* About Me Section Styling */
+#about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #3498db; /* Light Blue for your name and CGPA */
+}
+
+.html-tag {
+    color: #e74c3c; /* Red for HTML */
+}
+
+.css-tag {
+    color: #16a085; /* Teal for CSS */
+}
+
+.plp {
+    color: #9b59b6; /* Purple for Power Learn Project */
+}
+
+.larger-text {
+    font-size: 1.2em; /* Slightly larger text for emphasis */
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #34495e;
+}
