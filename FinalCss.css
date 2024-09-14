@@ -1,0 +1,224 @@
+/* About Me Section Styling */
+#about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.highlight {
+    color: #3498db; /* Light Blue for your name and CGPA */
+}
+
+.html-tag {
+    color: #e74c3c; /* Red for HTML */
+}
+
+.css-tag {
+    color: #1abc9c; /* Green for CSS */
+}
+
+.larger-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.plp {
+    color: #8e44ad; /* Purple for Power Learn Project */
+}
+
+/* Projects Section */
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.project-list a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Profile Picture */
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/* Highlights Section */
+#highlights {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.highlight {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.highlight:hover {
+    transform: scale(1.05);
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.project {
+    background-color: #444;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.project:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #highlights {
+        flex-direction: column;
+    }
+
+    .highlight {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
